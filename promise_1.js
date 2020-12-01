@@ -1,7 +1,7 @@
 const primeiroElemento = arraOuString => arraOuString[0]
 const letraMinuscula = letra => letra.toLowerCase()
 
-new Promise(function(resolte) {
+new Promise(function(resolve) {
   resolve(['Ana', 'Bia', 'CH', 'Daniel'])
 })
 
