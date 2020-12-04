@@ -9,4 +9,8 @@ function funcionarOuNao(valor, chanceErro) {
 }
 
 funcionarOuNao('Testando...', 0.1)
-  .then(console.log)
+  .then(v => console.log(`Valor: ${v}`))
+  .then(
+    v => console.log(v),
+    err => console.log(`Erro Esp.: ${err}`))
+  .catch( err => console.log(`Erro: ${err}`))
