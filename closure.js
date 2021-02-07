@@ -1,4 +1,5 @@
 // Closure é uma função que consegue ler variaveis dentro e fora do escopo dela mesmo
+// Closure na pratica: Pode-se usar onde normalmente usaria um objeto de um unico método
 
 // Nesse exemplo a função "baa" é uma função closure pois consegue ler a const a que está fora do seu escopo
 
