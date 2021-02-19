@@ -27,3 +27,5 @@ let diaSemanaTexto;
     default : 
       console.log('Pipipopopo')
  }
+
+ console.log(diaSemanaTexto)
