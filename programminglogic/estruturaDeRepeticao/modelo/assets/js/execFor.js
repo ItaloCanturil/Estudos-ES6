@@ -8,9 +8,10 @@ const elementos = [
 
 function showElements () {
   for (let i = 0; i < elementos.length; i++) {
-    const tag = document.createElement(`${elementos[i].tag}`);
-    tag.textContent = elementos[i].text;
-    container.append(tag);
+    let {tag, texto} = elementos[i];
+    let tagCriada = document.createElement(tag);
+    tagCriada.textContent = texto;
+    container.append(tagCriada);
   }
 }
 
